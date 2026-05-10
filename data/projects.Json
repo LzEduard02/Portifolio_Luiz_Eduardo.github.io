@@ -78,7 +78,7 @@
     },
     {
       "tipo": "imagem",
-      "url": "imagem/antes_mudança.jpeg",
+      "url": "imagem/antes_mudanca.jpeg",
       "alt": "Foto do projeto antes",
       "width": "400px"
     },
@@ -108,7 +108,7 @@
     },
     {
       "tipo": "imagem",
-      "url": "imagem/depois_mudança.jpeg",
+      "url": "imagem/depois_mudanca.jpeg",
       "alt": "Foto do projeto depois",
       "width": "400px"
     },
