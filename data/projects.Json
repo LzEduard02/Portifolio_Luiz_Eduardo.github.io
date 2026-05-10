@@ -1,0 +1,345 @@
+[
+  {
+    "id": 1,
+    "titulo": "Sistema de Monitoramento de Macronutrientes NPK e Irrigação Automática",
+    "categoria": "automacao",
+    "resumo": "Sistema baseado em ESP32 com sensor NPK-S e umidade capacitiva, com acionamento automático de bomba de água.",
+    "tags": ["ESP32", "Sensor NPK-S", "Blynk", "C++", "RS485"],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"},
+      {"texto": "Ver vídeo", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Este projeto foi desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Controle e Automação, com o objetivo de integrar sensores e automação inteligente para o monitoramento da fertilidade do solo e controle automatizado de irrigação."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A ideia central era criar um sistema capaz de medir os níveis de Nitrogênio (N), Fósforo (P) e Potássio (K) — macronutrientes essenciais ao desenvolvimento das plantas — e, ao mesmo tempo, gerenciar a irrigação de forma autônoma, mantendo o solo em condições ideais."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A proposta surgiu da necessidade de soluções acessíveis e eficientes para o manejo de solos agrícolas, especialmente voltadas à agricultura de precisão."
+      },
+      {
+        "tipo": "link_pdf",
+        "texto": "📄 Visualizar TCC completo (PDF)",
+        "url": "arquivos/TCC_Luiz_Eduardo_Lima.pdf"
+      }
+    ]
+  },
+
+  {
+  "id": 2,
+  "titulo": "Projeto de Reestruturação de Setor Produtivo com Aplicação de Six Sigma",
+  "categoria": "melhoria",
+  "resumo": "Análise e redesenho de processo em setor crítico, aplicando Lean e Six Sigma para reduzir gargalos, mitigar retrabalhos e aumentar a produtividade.",
+  "tags": ["Lean", "Six Sigma", "Melhoria de Processo", "Gestão da Qualidade"],
+  "links": [],
+  "conteudo_extra": [
+
+    {
+      "tipo": "titulo_secao",
+      "texto": "Contexto e Problema"
+    },
+    
+    {
+      "tipo": "paragrafo",
+      "texto": "Este projeto foi desenvolvido em um setor estratégico da indústria, responsável pela fabricação do produto carro-chefe da empresa. Apesar de sua relevância, o setor enfrentava problemas graves: atrasos constantes nas entregas, retrabalhos frequentes e falhas de qualidade, fatores que comprometiam diretamente o desempenho global da produção."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Diante desse cenário, recebemos a missão de reverter a situação por meio de uma abordagem estruturada e baseada em dado, como a utilização da metodologia DMAIC (Define, Measure, Analyze, Improve, Control) . O projeto foi conduzido paralelamente à minha formação em Six Sigma, o que possibilitou aplicar ferramentas estatísticas e metodologias de melhoria contínua de forma prática e orientada por evidências."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Antes das melhorias, realizamos uma coleta detalhada de dados do processo produtivo. Utilizamos o Minitab para construir análises gráficas, incluindo boxplots para avaliar a variabilidade do processo e gráficos de Pareto para identificar os principais responsáveis por perdas de tempo e retrabalhos."
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/Lix_Grafico_antes.png",
+      "alt": "gráfico de Pareto e Boxplot",
+      "width": "400px"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Além dos problemas estatísticos, o setor com pelo menos 20 anos de operação apresentava desorganização estrutural já incorporada à cultura local.Entre os principais impactos estavam:"
+    },
+    
+    {
+      "tipo": "paragrafo",
+      "texto": "- <b>Ergonomia:</b> durante cada etapa de produção, o material acabado era colocado em caixas ao lado do operador, acumulando estoques temporários. Como alguns produtos tinham quatro ou mais etapas, isso obrigava os funcionários a se deslocarem com caixas cheias pelo setor, aumentando o esforço físico e o risco de acidentes.<br> - <b>Higiene:</b> a desorganização favorecia o acúmulo excessivo de resíduos e dificultava a limpeza do ambiente.<br> - <b>Fluxo prejudicado:</b> a má disposição dos produtos gerava acumulo de estoque e dificultava a produção dos diversos produtos produzidos no setor, reduzindo produtividade e impactando no bem-estar do colaborador."
+    },
+
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Setor antes da mudança:</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/antes_mudança.jpeg",
+      "alt": "Foto do projeto antes",
+      "width": "400px"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Fluxo de processo (Antes):</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fluxo_antes.png",
+      "alt": "Fluxo antes",
+       "width": "300px"
+    },
+
+    {
+      "tipo": "titulo_secao",
+      "texto": "MELHORIA"
+    },
+    
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base nas análises realizadas, implementamos melhorias estruturais e operacionais. Foi construída uma esteira para transporte de caixas entre os postos de trabalho, reduzindo o esforço físico e o tempo de movimentação. Máquinas passaram por ajustes técnicos, incluindo a substituição de discos de corte mais adequados à operação."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Setor após a mudança:</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/depois_mudança.jpeg",
+      "alt": "Foto do projeto depois",
+      "width": "400px"
+    },
+    
+    {
+      "tipo": "paragrafo",
+      "texto": "Também reorganizamos o fluxo produtivo considerando a limitação de quatro operadores para produtos com até oito operações. Definimos uma estratégia de produção em blocos, onde parte das operações gerava um estoque intermediário controlado, permitindo posteriormente a continuidade das etapas seguintes de forma balanceada e mais eficiente."
+    },
+    
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Novo layout (Depois):</b>"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fluxo_depois.png",
+      "alt": "Fluxo depois",
+      "width": "300px"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Os resultados foram expressivos. As melhorias implemntadas tiveram impacto imediato com a produção aumentando de 14 mil para 30 mil peças no primeiro mês de implementação, o qual se aproximou das espectativas maximas de produção do setor, sendo essa de cerca de 31 mil peças. Alem do aumento de produção, os acumulos de estoques do setor foi reduzido drasticamente, com os estoques sendo 'queimados' a medida que era produzido pela fundição, outro ponto importante foi a melhora do ambiente de trabalho, com o funcionario fazendo menos esforço e trabalhando em um ambiente mais limpo e organizado."
+    },
+    {
+      "tipo":"paragrafo",
+      "texto":"Seguindo a metodologia DMAIC, com o termino da implementração, voltamos a coletamos dados do setor produtivo para quantificar as melhorias. Abaixo o grafico Boxplot represntando a estabilização do trabalho em cada etapa da produção, os valores demonstram a eficacia das melhorias implementadas. " 
+    },
+   {
+      "tipo": "imagem",
+      "url": "imagem/Lixadeira_boxplotDepois.png",
+      "alt": "Fluxo depois",
+      "width": "500px"
+    }
+  ]
+},
+
+{
+    "id": 3,
+    "titulo": "Máquina Pino Mola",
+    "categoria": "automacao",
+    "resumo": "Equipamento automatizado para recartilhar e conformar pinos mola.",
+    "tags": ["Arduino", "Melhoria de processso", "Automação industrial", "Aumento de produção"],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Contexto: O pino mola é uma peça essencial utilizada em cortadores para fixação do cabo do produto. Apesar de simples, sua fabricação manual em um torno antigo tornava o processo lento, pouco preciso e fisicamente desgastante para o operador. Isso resultava em baixa produtividade, variação dimensional e risco de fadiga devido  ao esforço repetitivo."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Com o objetivo de modernizar o processo, melhorar a ergonomia e aumentar a capacidade de produção, desenvolvi uma máquina automatizada capaz de realizar todo o processo de recartilho com repetibilidade e segurança. O sistema utiliza pistões pneumáticos, sensores de posição, controle embarcado com Arduino e um disco indexador para garantir posicionamento preciso em cada etapa."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "A automação permitiu padronizar a qualidade do pino mola, reduzir falhas e liberar o operador para atividades de maior valor agregado, elevando a eficiência geral da linha."
+      },
+      {
+        "tipo": "imagem",
+        "url": "imagens/maquina_pinoMola.jpg",
+        "alt": "Foto da maquina"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "titulo": "Estação de Monitoramento de Solo com Gráficos em Tempo Real",
+    "categoria": "automacao",
+    "resumo": "Protótipo de estação conectada ao Blynk para exibir dados de sensores ambientais em tempo real.",
+    "tags": ["ESP32", "Blynk", "DHT11", "IoT"],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"}
+    ],
+    "conteudo_extra": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Este sistema coleta dados de temperatura, umidade do solo e umidade do ar, transmitindo-os para o aplicativo Blynk. O usuário pode visualizar gráficos e históricos de dados e configurar alertas automáticos."
+      },
+      {
+        "tipo": "imagem",
+        "url": "imagem/estacao-solo.jpg",
+        "alt": "Foto da estação"
+      }
+    ]
+  },
+
+  
+
+  {
+    "id": 5,
+    "titulo": "Skimmer",
+    "categoria": "automacao",
+    "resumo": "Máquina automática para remoção de óleo residual de torno CNC.",
+    "tags": ["Manutenção", "Motor DC", "Automação "],
+    "links": [
+      {"texto": "Ver código no GitHub", "url": "#"}
+    ],
+    "conteudo_extra": [
+
+      {
+      "tipo": "titulo_secao",
+      "texto": "Contexto e Problema"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Em operações de torno, o acúmulo de óleo contaminado no tanque ocorre de forma recorrente, comprometendo a qualidade do fluido de corte e a eficiência do processo."
+      },
+      {
+        "tipo":"imagem",
+        "url":"imagem/skimer_tanqueSujo.jpeg",
+        "alt":"tanque sujo",
+        "width": "300px"
+
+      },
+      {"tipo": "paragrafo",
+        "texto":"<b>Reservatorio sujo</b>"},
+      
+      {
+        "tipo": "paragrafo",
+        "texto": " Antes da automação, a remoção desse resíduo era realizada manualmente pelo operador. O processo consistia na utilização de um copo plástico perfurado para separar óleo, água e resíduos sólidos. Além de trabalhoso e pouco eficiente, esse procedimento exigia a interrupção da máquina, gerando perdas produtivas e aumentando o tempo de parada"
+      },
+      {
+        "tipo": "imagem",
+        "url": "imagem/skimer_copoLimpeza.png",
+        "alt": "Copo utilizado para limpeza",
+        "width": "400px"
+      },
+      {
+      "tipo": "titulo_secao",
+      "texto": "Skimmer"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Com o objetivo de eliminar essa ineficiência e padronizar o processo de manutenção, desenvolvi um sistema automatizado de remoção contínua de óleo contaminado."
+      },
+
+      {
+        "tipo": "imagem",
+        "url": "imagem/skimer_inventor.png",
+        "alt": "Modelo no Inventor",
+        "legenda": "Imagem 1: Skimer modelado no Autodesk Inventor."
+        
+      },
+      {
+      "tipo": "titulo_secao",
+      "texto": ""
+      },
+      {
+        "tipo":"paragrafo",
+        "texto":"O equipamento utiliza um motor DC de 24v para rotacionar um disco de aço, responsável por capturar o óleo e impureza da superfície do tanque, a sujeira captada pela rotação do disco é então raspado por 'pastilhas' de poliester, direcionando o fluido ate um reservatório apropriado."
+      },
+      {
+        "tipo": "video",
+        "url": "imagem/skimer_acionamento.mp4",
+        "width": "100px"
+      },
+
+      {
+        "tipo":"paragrafo",
+        "texto":"<b>A Solução proporcionou:</b>"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Redução de paradas produtivas",
+          "Padronização da limpeza do tanque",
+          "Maior segurança operacional",
+          "Aumento da vida útil do fluido de corte"
+        ]
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O sistema opera de forma contínua, simples e confiável, contribuindo diretamente para o aumento da produtividade no processo de usinagem."
+      }
+    
+    ]
+  },
+
+{
+  "id": 6,
+  "titulo": "Projeto Setor Fundição",
+  "categoria": "melhoria",
+  "resumo": "Melhoria do fluxo de material e organização do estoque no setor de fundição, resultando em redução de desperdício de tempo e otimização do espaço.",
+  "tags": ["Lean", "Organização de Processos", "5S", "Otimização de Layout"],
+  "links": [],
+  "conteudo_extra": [
+    {
+      "tipo": "titulo_secao",
+      "texto": "Contexto e Problema"
+      },
+    {
+      "tipo": "paragrafo",
+      "texto": "Em sequencia ao projeto do setor ''lixadeira'',  o setor responsavel por fundir as peças de alumino e abaster o setor lixadeira apresentava serios problemas que impactava a produção do setor lixadeira "
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O principal gargalo era a área de estoque. A fundição dependia de paletes e caixas padrão para armazenar as peças, mas o volume de produção excedia o espaço físico disponível, gerando pilhas desorganizadas e perdas. Além disso, a separação de diferentes tipos de peças era visualmente complexa."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Solução Implementada:</b> Para resolver o problema, redesenhamos o sistema de armazenamento."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "1.  <b>Criação de Estruturas Verticais:</b> Foram instaladas estruturas metálicas verticais e modulares, otimizando o espaço aéreo e liberando a área do chão."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "2.  <b>Padronização e Identificação (5S):</b> Implementamos a separação das peças por tipo e tamanho, com marcações visuais claras e placas de identificação. Isso facilitou o processo de contagem (inventário) e a localização imediata de qualquer material."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "3.  <b>Melhoria do Descarte:</b> O processo de descarte foi padronizado para garantir que o material não conforme fosse segregado imediatamente, reduzindo a confusão no estoque principal."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "<b>Resultados:</b> O projeto resultou em um ambiente mais seguro e organizado, uma redução significativa no tempo gasto na procura de peças (cerca de **30% de otimização no tempo de separação**) e um fluxo de material mais limpo para os setores seguintes."
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fundicao_antes.jpeg",
+      "alt": "Foto do setor de fundição antes"
+    },
+    {
+      "tipo": "imagem",
+      "url": "imagem/fundicao_depois.jpeg",
+      "alt": "Foto do setor de fundição depois"
+    }
+  ]
+}
+
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "cargo": "Desenhista Projetista",
+    "empresa": "Vitalex",
+    "periodo": "Dez-2024 – Atual",
+    "detalhes": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Minha jornada na empresa começa no final de 2024, iniciei como estagiário desenhista projetista. Meu periodo como estagiario foi muito produtivo,pois pude amadurecer as minhas habilidades em CAD, principalmente Inventor, para modelagem 3D e desenhos tecnicos. Graças à liberdade e confiança por parte dos meus superiores, pude pôr em prática todo conhecimento adquirido durante meu curso em engenharia, e contribuindo para a melhoria de produtos e organização dos desenhos técnicos alem de projetos operacionais."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Após a conclusão do meu estágio, recebi a proposta de efetivação na empresa, continuando meu trabalho o qual iniciei no meu estágio. Graças a uma mudança no meu setor, a vaga de projetista ficou aberta e eu pude assimilar essa posição, unindo duas posições dentro da empresa. O que para muitos seria 'mais trabalho', para mim foi uma oportunidade de obter mais experiências e maturidade como profissional."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Com mais autonomia e possibilidades, nesse período pude participar de diversos projetos de melhoria, tanto de processo quanto de rodutos, no qual pude contribuir para a economia e produção na empresa. Alem disso, atuei em projetos de automação dentro da indústria, projetando e programando máquinas que visavam a melhoria de processo e aplicando conceitos de melhoria contínua em diversos setores com o mesmo objetivo, a melhoria, economia e aumento de produção."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cargo": "Estágio em Instalações Elétricas",
+    "empresa": "Peres Automação",
+    "periodo": "Jul-2024 – Out-2024",
+    "detalhes": [
+      {
+        "tipo": "paragrafo",
+        "texto": "Foi minha primeira experiência em estágio, e foi essencial para amadurecer minha mentalidade sobre o mercado de trabalho. No periodo que estagiei, trabalhei com instalações elétricas e automação residenciais, adquirindo noções e praticas de elétrica básica, instalações elétricas prediais e automação residencial."
+      }
+    ]
+  }
+]
