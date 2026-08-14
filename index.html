@@ -257,7 +257,7 @@
         const experienceListUl = document.getElementById('experience-list');
         
         try {
-            const response = await fetch('data/experiencias.json'); 
+            const response = await fetch('data/experiencias.json?v=' + Date.now());
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
@@ -363,7 +363,7 @@
         try {
             // Nota: Se estiver no GitHub Pages, certifique-se que o nome do arquivo 
             // no servidor é exatamente 'projects.json' (ou como você renomeou)
-            const response = await fetch('data/projects.json'); 
+            const response = await fetch('data/projects.json?v=' + Date.now()); 
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
