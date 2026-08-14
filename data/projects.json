@@ -176,30 +176,6 @@
   },
 
   {
-    "id": 4,
-    "titulo": "Estação de Monitoramento de Solo com Gráficos em Tempo Real",
-    "categoria": "automacao",
-    "resumo": "Protótipo de estação conectada ao Blynk para exibir dados de sensores ambientais em tempo real.",
-    "tags": ["ESP32", "Blynk", "DHT11", "IoT"],
-    "links": [
-      {"texto": "Ver código no GitHub", "url": "#"}
-    ],
-    "conteudo_extra": [
-      {
-        "tipo": "paragrafo",
-        "texto": "Este sistema coleta dados de temperatura, umidade do solo e umidade do ar, transmitindo-os para o aplicativo Blynk. O usuário pode visualizar gráficos e históricos de dados e configurar alertas automáticos."
-      },
-      {
-        "tipo": "imagem",
-        "url": "imagem/estacao-solo.jpg",
-        "alt": "Foto da estação"
-      }
-    ]
-  },
-
-  
-
-  {
     "id": 5,
     "titulo": "Skimmer",
     "categoria": "automacao",
@@ -288,58 +264,5 @@
     
     ]
   },
-
-{
-  "id": 6,
-  "titulo": "Projeto Setor Fundição",
-  "categoria": "melhoria",
-  "resumo": "Melhoria do fluxo de material e organização do estoque no setor de fundição, resultando em redução de desperdício de tempo e otimização do espaço.",
-  "tags": ["Lean", "Organização de Processos", "5S", "Otimização de Layout"],
-  "links": [],
-  "conteudo_extra": [
-    {
-      "tipo": "titulo_secao",
-      "texto": "Contexto e Problema"
-      },
-    {
-      "tipo": "paragrafo",
-      "texto": "Em sequencia ao projeto do setor ''lixadeira'',  o setor responsavel por fundir as peças de alumino e abaster o setor lixadeira apresentava serios problemas que impactava a produção do setor lixadeira "
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "O principal gargalo era a área de estoque. A fundição dependia de paletes e caixas padrão para armazenar as peças, mas o volume de produção excedia o espaço físico disponível, gerando pilhas desorganizadas e perdas. Além disso, a separação de diferentes tipos de peças era visualmente complexa."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<b>Solução Implementada:</b> Para resolver o problema, redesenhamos o sistema de armazenamento."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "1.  <b>Criação de Estruturas Verticais:</b> Foram instaladas estruturas metálicas verticais e modulares, otimizando o espaço aéreo e liberando a área do chão."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "2.  <b>Padronização e Identificação (5S):</b> Implementamos a separação das peças por tipo e tamanho, com marcações visuais claras e placas de identificação. Isso facilitou o processo de contagem (inventário) e a localização imediata de qualquer material."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "3.  <b>Melhoria do Descarte:</b> O processo de descarte foi padronizado para garantir que o material não conforme fosse segregado imediatamente, reduzindo a confusão no estoque principal."
-    },
-    {
-      "tipo": "paragrafo",
-      "texto": "<b>Resultados:</b> O projeto resultou em um ambiente mais seguro e organizado, uma redução significativa no tempo gasto na procura de peças (cerca de **30% de otimização no tempo de separação**) e um fluxo de material mais limpo para os setores seguintes."
-    },
-    {
-      "tipo": "imagem",
-      "url": "imagem/fundicao_antes.jpeg",
-      "alt": "Foto do setor de fundição antes"
-    },
-    {
-      "tipo": "imagem",
-      "url": "imagem/fundicao_depois.jpeg",
-      "alt": "Foto do setor de fundição depois"
-    }
-  ]
-}
 
 ]
